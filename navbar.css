@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-enrique {
+    width: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+}
