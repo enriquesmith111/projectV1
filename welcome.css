@@ -14,31 +14,46 @@
 }
 
 .welcome-section h1 {
-    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    font-size: 100px;
+    margin: 0px;
+    width: 100%;
 }
 
 .welcome-section-text {
     display: flex;
-    border: 1px solid green;
-    max-width: 25%;
-    height: 80vh;
+    /* border: 1px solid green; */
+    max-width: 35%;
+    height: fit-content;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .welcome-section-image {
+    animation-name: floating;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
     height:80vh;
     width: 30vw;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
 }
 
 .welcome-section-image img {
     position: relative;
-    top: 0px;
+    top: -50px;
     right: 50px;
     height: 80vh;
     width: 40vw;
     rotate: 11deg;
     z-index: -1;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 30px); }
+    100%   { transform: translate(0, -0px); }    
 }
