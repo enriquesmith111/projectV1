@@ -13,6 +13,12 @@
     justify-content: center;
 }
 
+@media (max-width: 800px) {
+    .welcome-section {
+      flex-direction: column;
+    }
+  }
+
 .welcome-section h1 {
     display: flex;
     justify-content: center;
@@ -32,6 +38,12 @@
     justify-content: center;
 }
 
+@media (max-width: 800px) {
+    .welcome-section-text {
+      max-width: 90%;
+    }
+  }
+
 .welcome-section-image {
     animation-name: floating;
     animation-duration: 3.5s;
@@ -41,6 +53,12 @@
     width: 30vw;
     /* border: 1px solid purple; */
 }
+
+@media (max-width: 800px) {
+    .welcome-section-image {
+      width: 80vw;
+    }
+  }
 
 .welcome-section-image img {
     position: relative;
@@ -53,6 +71,12 @@
     /* background-color:transparent;
     background-image: radial-gradient( #89becb 20%, #15494f03 65%); */
 }
+
+@media (max-width: 800px) {
+    .welcome-section-image img {
+      width: 100vw;
+    }
+  }
 
 @keyframes floating {
     0% { transform: translate(0,  0px); }
