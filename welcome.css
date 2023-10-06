@@ -44,12 +44,14 @@
 
 .welcome-section-image img {
     position: relative;
-    top: -50px;
+    top: -100px;
     right: 50px;
-    height: 80vh;
-    width: 40vw;
+    height: 88vh;
+    width: 44vw;
     rotate: 11deg;
     z-index: -1;
+    /* background-color:transparent;
+    background-image: radial-gradient( #89becb 20%, #15494f03 65%); */
 }
 
 @keyframes floating {
