@@ -56,9 +56,15 @@
 
 @media (max-width: 800px) {
     .welcome-section-image {
-      width: 80vw;
+        width: 80vw;
     }
-  }
+}
+
+@media (max-width: 480px) {
+    .welcome-section-image {
+        display: none;
+    }
+}
 
 .welcome-section-image img {
     position: relative;
@@ -74,9 +80,15 @@
 
 @media (max-width: 800px) {
     .welcome-section-image img {
-      width: 100vw;
+        width: 100vw;
     }
-  }
+}
+
+@media (max-width: 480px) {
+    .welcome-section-image img {
+        display: none;
+    }
+}
 
 @keyframes floating {
     0% { transform: translate(0,  0px); }
