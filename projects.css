@@ -1,0 +1,42 @@
+.projects-section {
+    display: contents;
+    width: 100%;
+}
+
+.text-divider {
+    width: 90%;
+    display: flex;
+    align-items: center; 
+    font-size: 50px;
+    color: rgb(233, 233, 233);
+}
+
+.text-divider::before,
+.text-divider::after {
+    content: '';
+    height: 1px;
+    background-color: rgb(233, 233, 233);
+    flex-grow: 1; 
+}
+
+.text-divider {
+    display: flex;
+    align-items: center;
+    --text-divider-gap: 1rem; 
+}
+
+.text-divider::before,
+.text-divider::after {
+    content: '';
+    height: 1px;
+    background-color: rgb(233, 233, 233);
+    flex-grow: 1;
+}
+
+.text-divider::before {
+    margin-right: var(--text-divider-gap);
+}
+
+.text-divider::after {
+    margin-left: var(--text-divider-gap);
+}

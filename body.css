@@ -1,3 +1,7 @@
+/* * {
+    border: 2px dotted red;
+} */
+
 body {
     display: flex; 
     flex-direction: column; 
