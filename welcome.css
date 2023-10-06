@@ -8,7 +8,6 @@
     margin-top: 0vh;
     margin-left: 10vh;
     margin-right: 10vh;
-    min-height: 100vh;
     align-items: center;
     justify-content: center;
 }
@@ -26,6 +25,12 @@
     font-size: 100px;
     margin: 0px;
     width: 100%;
+}
+
+@media (max-width: 800px) {
+    .welcome-section h1 {
+        font-size: 80px ;
+    }
 }
 
 .welcome-section-text {
@@ -62,7 +67,8 @@
 
 @media (max-width: 480px) {
     .welcome-section-image {
-        display: none;
+        width: 100vw;
+        height: auto;
     }
 }
 
@@ -86,7 +92,10 @@
 
 @media (max-width: 480px) {
     .welcome-section-image img {
-        display: none;
+        width: 80%;
+        height: 50%;
+        top: -50%;
+        left: 10%;
     }
 }
 

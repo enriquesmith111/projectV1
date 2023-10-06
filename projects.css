@@ -11,6 +11,12 @@
     color: rgb(233, 233, 233);
 }
 
+@media (max-width: 480px) {
+    .text-divider {
+        margin-top: 10%;
+    }
+}
+
 .text-divider::before,
 .text-divider::after {
     content: '';
