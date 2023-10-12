@@ -136,12 +136,24 @@
     }
 }
 
+@media (max-height: 690px) {
+    .individual-project-image img {
+        height: 130vh;
+    }
+}
+
 @media (max-width: 540px) {
     .individual-project-image img {
         width: 100vw;
         height: 80%;
         right: 180px;
         top: -50px;
+    }
+}
+
+@media (max-height: 540px) {
+    .individual-project-image img {
+        height: 170vh;
     }
 }
 
