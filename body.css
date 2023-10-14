@@ -15,3 +15,9 @@ body {
     margin-bottom: 0px;
 }
 
+@media (max-width: 480px) {
+    body {
+        max-width: 90vw;
+    }
+}
+
