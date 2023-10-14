@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="body.css">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 
 <body style="display: flex; flex-direction: column; align-items: center;">
@@ -50,7 +52,7 @@
     </div>
 
     <div class="projects-full-section">
-        <div class="text-divider">Projects</div>
+        <div id="project-divider" class="project-divider">Projects</div>
 
         <div class="individual-project">
             <div class="individual-project-image">
@@ -129,17 +131,99 @@
                     placerat eleifend leo</h4>
             </div>
         </div>
-        <div class="text-divider" style="margin-top: 5vh;">Contact</div>
-
     </div>
 
-    <!-- <div class="projects-section">
-        <div class="text-divider">Contact</div>
+    <div id="contact-divider" class="contact-divider" style="margin-top: 5vh;">Contact</div>
+    <div class = "contact-section">
+        <div class= "contact-section-text">
+            <h4>Pellentesque habitant morbi
+                tristique senectus et netus et
+                malesuada fames ac turpis egestas.
+                Vestibulum tortor quam, feugiat
+                vitae, ultricies eget, tempor sit
+                amet, ante. Donec eu libero sit
+                amet quam egestas semper. Aenean
+                ultricies mi vitae est. Mauris
+                placerat eleifend leo
+                Vestibulum tortor quam, feugiat
+                vitae, ultricies eget, tempor sit
+                amet, ante. Donec eu libero sit
+                amet quam egestas semper. Aenean
+                ultricies mi vitae est. Mauris
+                placerat eleifend leo Pellentesque habitant morbi
+                tristique senectus et netus et
+                malesuada fames ac turpis egestas.
+                Vestibulum tortor quam, feugiat
+                vitae, ultricies eget, tempor sit
+                amet, ante. Donec eu libero sit
+                amet quam egestas semper. Aenean
+                ultricies mi vitae est. Mauris
+                placerat eleifend leo
+                Vestibulum tortor quam, feugiat
+                vitae, ultricies eget, tempor sit
+                amet, ante. Donec eu libero sit
+                amet quam egestas semper. Aenean
+                ultricies mi vitae est. Mauris
+                placerat eleifend leo</h4>
+        </div>
 
-    </div> -->
+    <div class="form-container">
+        <form action="https://formspree.io/f/xgejrzyl" method="post">
+            <div><h1>Contact Me</h1></div>
+            <input type="text" name="name" placeholder="Your name">
+            <input type="email" name="email" placeholder="Your email">
+            <textarea name="message" placeholder="Your message"></textarea>
+            <input class="form-submit" type="submit" value="Send">
+        </form>
+    </div>
+
+    </div>
     
-    <footer>
+    <footer class= "footer">
+        <div class="footer-links">
+            <h2>Email</h2>
+            <h2>LinkedIn</h2>
+            <h2>Github</h2>
+        </div>
     </footer>
 
+
+<script>
+    window.onload = function() {
+    // Get the project and contact dividers using findById()
+    const projectDivider = document.getElementById('project-divider');
+    const contactDivider = document.getElementById('contact-divider');
+
+    // Debounce the scroll listener
+    const debouncedScrollListener = function() {
+        // Get the scroll position
+        const scrollTop = window.scrollY;
+
+        // Get the bounding rectangles of the project and contact dividers
+        const projectDividerRect = projectDivider.getBoundingClientRect();
+        const contactDividerRect = contactDivider.getBoundingClientRect();
+
+        // Check if the two dividers overlap
+        const doDividersOverlap = projectDividerRect.top < contactDividerRect.bottom && contactDividerRect.top < projectDividerRect.bottom;
+
+        // Check if the user has reached the end of the webpage, minus a margin
+        const isUserAtEndOfWebpage = scrollTop + window.innerHeight >= document.body.scrollHeight - 100;
+
+        // If the two dividers overlap or the user has reached the end of the webpage, minus a margin, make the project divider non-sticky
+        if (doDividersOverlap || isUserAtEndOfWebpage) {
+        projectDivider.style.position = 'static';
+        } else {
+        // Otherwise, make the project divider sticky
+        projectDivider.style.position = 'sticky';
+        }
+    };
+
+    // Add a scroll listener to the window
+    window.addEventListener('scroll', debouncedScrollListener);
+    };
+</script>
+    
 </body>
 </html>
+
+

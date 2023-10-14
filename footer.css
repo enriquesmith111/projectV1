@@ -1,0 +1,17 @@
+.footer {
+    background-color: black;
+    display: flex;
+    min-height: 9vh;
+    max-height: 30vh;
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}

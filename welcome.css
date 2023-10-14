@@ -99,10 +99,22 @@
     }
 }
 
+@media (max-height: 690px) {
+    .welcome-section-image img {
+        height: 100vh;
+    }
+}
+
 @media (max-width: 540px) {
     .welcome-section-image img {
         width: 100vw;
         height: 80%;
+    }
+}
+
+@media (max-height: 540px) {
+    .individual-project-image img {
+        height: 170vh;
     }
 }
 

@@ -5,7 +5,7 @@
     margin-right: 10vh;
 }
 
-.text-divider {
+.project-divider {
     width: 90%;
     display: flex;
     position: sticky; top:5%;
@@ -16,41 +16,41 @@
 }
 
 @media (max-width: 480px) {
-    .text-divider {
+    .project-divider {
         margin-top: 10%;
         position: initial;
 
     }
 }
 
-.text-divider::before,
-.text-divider::after {
+.project-divider::before,
+.project-divider::after {
     content: '';
     height: 1px;
     background-color: rgb(233, 233, 233);
     flex-grow: 1; 
 }
 
-.text-divider {
+.project-divider {
     display: flex;
     align-items: center;
-    --text-divider-gap: 1rem; 
+    --project-divider-gap: 1rem; 
 }
 
-.text-divider::before,
-.text-divider::after {
+.project-divider::before,
+.project-divider::after {
     content: '';
     height: 1px;
     background-color: rgb(233, 233, 233);
     flex-grow: 1;
 }
 
-.text-divider::before {
-    margin-right: var(--text-divider-gap);
+.project-divider::before {
+    margin-right: var(--project-divider-gap);
 }
 
-.text-divider::after {
-    margin-left: var(--text-divider-gap);
+.project-divider::after {
+    margin-left: var(--project-divider-gap);
 }
 
 .individual-project {
