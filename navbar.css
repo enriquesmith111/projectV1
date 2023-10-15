@@ -16,11 +16,25 @@ header {
     left: 2vw;
 }
 
+@media (max-width: 480px) {
+    .header-enrique {
+        left: 4vw;
+        top: -2vh;
+    }
+}
+
 .header-links {
     position: absolute;
     display: flex;
     top: 1.5vh;
     right: 2vw;
+}
+
+@media (max-width: 480px) {
+    .header-links {
+        top: 0.7vh;
+        font-size: 12px;
+    }
 }
 
 .header-links h3 {

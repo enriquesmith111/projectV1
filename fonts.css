@@ -1,3 +1,4 @@
+
 h1 {
     color: rgb(233, 233, 233);
 }
@@ -25,3 +26,73 @@ h6 {
 p {
     color: rgb(233, 233, 233);
 }
+
+.icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.devicon-ruby-plain {
+    font-size: 40px;
+    color: rgb(233, 233, 233);
+}
+
+.devicon-rails-plain {
+    font-size: 40px;
+    color: rgb(233, 233, 233);
+}
+
+.devicon-postgresql-plain-wordmark {
+    font-size: 40px;
+    color: rgb(233, 233, 233);
+}
+
+.devicon-html5-plain {
+    font-size: 40px;
+    color: rgb(233, 233, 233);
+}
+
+.devicon-css3-plain {
+    font-size: 40px;
+    color: rgb(233, 233, 233);
+}
+
+.devicon-sass-original {
+    font-size: 40px;
+    color: rgb(233, 233, 233);
+}
+
+.devicon-javascript-plain {
+    font-size: 40px;
+    color: rgb(233, 233, 233);
+}
+
+.devicon-typescript-plain {
+    font-size: 40px;
+    color: rgb(233, 233, 233);
+}
+
+.devicon-bootstrap-plain-wordmark {
+    font-size: 40px;
+    color: rgb(233, 233, 233);
+}
+
+.devicon-heroku-original-wordmark {
+    font-size: 40px;
+    color: rgb(233, 233, 233);
+}
+
+.devicon-linkedin-plain {
+    font-size: 25px;
+    color: rgb(233, 233, 233);
+    margin-right: 10px;
+}
+
+.devicon-github-original {
+    font-size: 25px;
+    color: rgb(233, 233, 233);
+    margin-right: 10px;
+}
+
