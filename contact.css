@@ -1,6 +1,8 @@
 .contact-divider {
+    z-index: 2;
     width: 90%;
     display: flex;
+    position: sticky; top: 6%;
     align-items: center; 
     font-size: 50px;
     color: rgb(233, 233, 233);
@@ -47,7 +49,7 @@
     display: flex;
     /* border: 1px solid red; */
     margin-top: 12vh;
-    margin-bottom: 12vh;
+    margin-bottom: 10vh;
     align-items: center;
     justify-content: space-evenly;
 }

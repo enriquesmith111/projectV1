@@ -1,13 +1,13 @@
 header {
+    z-index: 1;
     margin: 0vh 0vw 0vh 0vw;
     display: flex;
     position: absolute;
     position: sticky;
     top: 0vh;
-    min-height: 9vh;
-    max-height: 30vh;
+    height: 11vh;
     width: 100vw;
-    background: #121212;
+    background: 	rgb(18, 18, 18);
 }
 
 .header-enrique {
@@ -24,6 +24,7 @@ header {
 }
 
 .header-links {
+    z-index: 1;
     position: absolute;
     display: flex;
     top: 1.5vh;
@@ -38,5 +39,6 @@ header {
 }
 
 .header-links h3 {
+    z-index: 1;
     padding: 0vh 1vw 0vh 1vw;
 }

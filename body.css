@@ -27,6 +27,8 @@ body {
 }
 
 a {
+    display: inline-block;
+    padding: 10px;
     text-decoration: none;
     color: rgb(233, 233, 233);
 }

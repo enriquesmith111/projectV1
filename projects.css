@@ -6,9 +6,10 @@
 }
 
 .project-divider {
+    z-index: 2;
     width: 90%;
     display: flex;
-    position: sticky; top:5%;
+    position: sticky; top:6%;
     align-items: center; 
     font-size: 50px;
     color: rgb(233, 233, 233);
@@ -181,5 +182,6 @@
 }
 
 .individual-project-text h1 {
+    margin: 0px 0px 0px 0px;
     font-size: 50px;
 }
