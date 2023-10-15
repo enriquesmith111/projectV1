@@ -27,14 +27,12 @@ body {
 }
 
 a {
-    display: inline-block;
-    padding: 10px;
     text-decoration: none;
     color: rgb(233, 233, 233);
 }
 
 a:hover {
-    color:#3392ae ;
+    color:#3392ae;
     font-size: larger;
 }
 

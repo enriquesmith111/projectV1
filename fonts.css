@@ -156,3 +156,26 @@ p {
     margin-right: 10px;
 }
 
+.devicon-github-original:hover {
+    color: #3392ae;
+}
+
+
+/* github pulse animation */
+
+#vibrate {
+    padding: 5px;
+    border-radius: 50%;
+    animation:pulse 2000ms infinite;
+}
+
+@keyframes pulse{
+    0%{
+        box-shadow:#ebeaea 0 0 0 0;
+    }
+    99%{
+        box-shadow:#ff69b400 0 0 0 10px;
+    }
+}
+
+
