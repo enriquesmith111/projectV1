@@ -1,9 +1,10 @@
-/* * {
+* {
     border: 2px dotted red;
-} */
+}
 
 body {
-    max-width: 100vw;
+    overflow-x: hidden;
+    max-width: 100%;
     max-height: max-content;
     display: flex; 
     flex-direction: column; 
@@ -12,12 +13,13 @@ body {
     background-color: #2d3436;
     background-image: linear-gradient(360deg, #153c48 40%, #121212 87%);
     font-family: 'Jost', sans-serif;
-    margin-bottom: 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 @media (max-width: 480px) {
     body {
-        max-width: 100vw;
+        overflow-x: hidden;
+        max-width: 100%;
     }
 }
 

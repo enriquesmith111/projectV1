@@ -39,9 +39,21 @@ p {
     color: rgb(233, 233, 233);
 }
 
+@media (max-width: 480px) {
+    .devicon-ruby-plain {
+        font-size: 25px;
+    }
+}
+
 .devicon-rails-plain {
     font-size: 40px;
     color: rgb(233, 233, 233);
+}
+
+@media (max-width: 480px) {
+    .devicon-rails-plain {
+        font-size: 25px;
+    }
 }
 
 .devicon-postgresql-plain-wordmark {
@@ -49,9 +61,21 @@ p {
     color: rgb(233, 233, 233);
 }
 
+@media (max-width: 480px) {
+    .devicon-postgresql-plain-wordmark {
+        font-size: 25px;
+    }
+}
+
 .devicon-html5-plain {
     font-size: 40px;
     color: rgb(233, 233, 233);
+}
+
+@media (max-width: 480px) {
+    .devicon-html5-plain {
+        font-size: 25px;
+    }
 }
 
 .devicon-css3-plain {
@@ -59,9 +83,21 @@ p {
     color: rgb(233, 233, 233);
 }
 
+@media (max-width: 480px) {
+    .devicon-css3-plain {
+        font-size: 25px;
+    }
+}
+
 .devicon-sass-original {
     font-size: 40px;
     color: rgb(233, 233, 233);
+}
+
+@media (max-width: 480px) {
+    .devicon-sass-original {
+        font-size: 25px;
+    }
 }
 
 .devicon-javascript-plain {
@@ -69,9 +105,21 @@ p {
     color: rgb(233, 233, 233);
 }
 
+@media (max-width: 480px) {
+    .devicon-javascript-plain {
+        font-size: 25px;
+    }
+}
+
 .devicon-typescript-plain {
     font-size: 40px;
     color: rgb(233, 233, 233);
+}
+
+@media (max-width: 480px) {
+    .devicon-typescript-plain {
+        font-size: 25px;
+    }
 }
 
 .devicon-bootstrap-plain-wordmark {
@@ -79,9 +127,21 @@ p {
     color: rgb(233, 233, 233);
 }
 
+@media (max-width: 480px) {
+    .devicon-bootstrap-plain-wordmark  {
+        font-size: 25px;
+    }
+}
+
 .devicon-heroku-original-wordmark {
     font-size: 40px;
     color: rgb(233, 233, 233);
+}
+
+@media (max-width: 480px) {
+    .devicon-heroku-original-wordmark {
+        font-size: 25px;
+    }
 }
 
 .devicon-linkedin-plain {

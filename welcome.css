@@ -63,7 +63,7 @@
 
 @media (max-width: 820px) {
     .welcome-section-image {
-        width: 80vw;
+        width: 100%;
     }
 }
 
@@ -96,6 +96,7 @@
 @media (max-width: 820px) {
     .welcome-section-image img {
         width: 100vw;
+        right: 0px;
     }
 }
 

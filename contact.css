@@ -1,11 +1,10 @@
 .contact-divider {
     width: 90%;
     display: flex;
-    position: sticky; top:5%;
     align-items: center; 
     font-size: 50px;
     color: rgb(233, 233, 233);
-    margin-top: -2%;
+    margin-top: -2vh;
 }
 
 @media (max-width: 540px) {
