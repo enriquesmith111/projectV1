@@ -133,6 +133,17 @@ p {
     }
 }
 
+.devicon-firebase-plain-wordmark {
+    font-size: 40px;
+    color: rgb(233, 233, 233);
+}
+
+@media (max-width: 480px) {
+    .devicon-firebase-plain-wordmark  {
+        font-size: 25px;
+    }
+}
+
 .devicon-heroku-original-wordmark {
     font-size: 40px;
     color: rgb(233, 233, 233);

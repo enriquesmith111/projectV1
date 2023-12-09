@@ -63,6 +63,8 @@
     justify-content: space-between;
 }
 
+/* PROJECT NUMBER 1 */
+
 @media (max-width: 820px) {
     .individual-project {
         flex-direction: column-reverse;
@@ -78,6 +80,8 @@
         margin-bottom: -20vh;
     }
 }
+
+/* PROJECT NUMBER 2 */
 
 .individual-project-2 {
     display: flex;
@@ -184,4 +188,23 @@
 .individual-project-text h1 {
     margin: 0px 0px 0px 0px;
     font-size: 50px;
+}
+
+/* PROJECT NUMBER 3 */
+
+.individual-project-3 {
+    display: flex;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    width: 90%;
+    height: min-content;
+    justify-content: space-between;
+}
+
+@media (max-width: 820px) {
+    .individual-project-3 {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 0vh;
+    }
 }
